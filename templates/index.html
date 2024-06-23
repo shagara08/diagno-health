@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>DiagnoHealth</title>
+    <link rel="icon" href="static/images/banner7.png" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/utilities.css') }}" rel="stylesheet" />
+    <!-- normalize css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Awal header -->
+      <header class="header" id="Home">
+        <!-- awal navbar -->
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-content d-flex justify-content-between align-items-center">
+              <div class="brand-and-toggler d-flex align-items-center justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                  <span class="brand-shape d-inline-block text-white">Dh</span>
+                  <span class="brand-text fw-7">DiagnoHealth</span>
+                </a>
+                <button type="button" class="d-none navbar-show-btn">
+                  <i class="fas fa-bars"></i>
+                </button>
+              </div>
+
+              <div class="navbar-box">
+                <button type="button" class="navbar-hide-btn">
+                  <i class="fas fa-times"></i>
+                </button>
+
+                <ul class="navbar-nav d-flex align-items-center">
+                  <li class="nav-item">
+                    <a href="#Home" class="nav-link text-blue nav-active text-nowrap">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#About" class="nav-link text-blue text-nowrap">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Workflow" class="nav-link text-blue text-nowrap">Workflow</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Consult" class="nav-link text-blue text-nowrap">Consult</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Contact" class="nav-link text-blue text-nowrap">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- akhir navbar -->
+
+        <div class="element-one">
+          <img src="static/images/element-img-1.png" alt="" />
+        </div>
+
+        <!-- awal banner -->
+        <div class="banner">
+          <div class="container">
+            <div class="banner-content">
+              <div class="banner-left">
+                <div class="content-wrapper">
+                  <h1 class="banner-title">Virtual skin health service for you</h1>
+                  <p class="text text-blue">Diagno Health provides health services to diagnose your skin diseases, accessible via mobile and online for everyone</p>
+                  <a href="#Consult" class="btn btn-primary">Check Here!</a>
+                </div>
+              </div>
+
+              <div class="banner-right d-flex align-items-center justify-content-end">
+                <img src="static/images/banner3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- akhir banner -->
+      </header>
+      <!-- Akhir header -->
+
+      <main>
+        <!-- awal section 1 -->
+        <section class="sc-grid sc-grid-one" id="About">
+          <div class="container">
+            <div class="grid-content d-grid align-items-center">
+              <div class="grid-img">
+                <img src="static/images/banner1.png" alt="" />
+              </div>
+              <div class="grid-text">
+                <div class="content-wrapper text-start">
+                  <div class="title-box">
+                    <h3 class="title-box-name text-white">Leading virtual skin care provider</h3>
+                    <div class="title-separator mx-auto"></div>
+                  </div>
+
+                  <p class="text title-box-text text-white">
+                    Diagno Health is a website-based application that can help you to diagnose skin diseases and equipped with ways to treat them! Accessible via mobile and online for everyone. For us, this is not just a job. We are proud
+                    of the solutions we provide.
+                  </p>
+                  <a href="#Consult" class="btn btn-primary">Check Here!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- akhir section 1 -->
+
+        <!-- awal section 2 -->
+        <section class="sc-services">
+          <div class="services-shape">
+            <img src="static/images/curve-shape-1.png" alt="" />
+          </div>
+          <div class="container" id="Workflow">
+            <div class="services-content">
+              <div class="title-box text-center">
+                <div class="content-wrapper">
+                  <h3 class="title-box-name">WORKFLOW</h3>
+                  <div class="title-separator mx-auto"></div>
+                  <p class="text title-box-text">The following is the expert system workflow for diagnosing your skin disease. You can consult with us what type of service is suitable for your health.</p>
+                </div>
+              </div>
+
+              <div class="services-list">
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img src="static/images/service-icon-1.png" alt="service icon" />
+                  </div>
+                  <h5 class="item-title fw-7">Search DiagnoHealth</h5>
+                  <p class="text">First of all, you have to search for diagnosehealth.com in the web browser of your choice.</p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img src="static/images/service-icon-2.png" alt="service icon" />
+                  </div>
+                  <h5 class="item-title fw-7">See Workflow</h5>
+                  <p class="text">On the website page, please see or read the workflow of this system.</p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img src="static/images/service-icon-3.png" alt="service icon" />
+                  </div>
+                  <h5 class="item-title fw-7">Consultation</h5>
+                  <p class="text">In this stage, users will be asked to upload images or photos of the skin disease they are experiencing.</p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img src="static/images/service-icon-6.png" alt="service icon" />
+                  </div>
+                  <h5 class="item-title fw-7">Tracking</h5>
+                  <p class="text">At this tracking stage, the image or photo uploaded by the user will be trained by the system and predicted what skin disease the user is suffering from.</p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img src="static/images/service-icon-4.png" alt="service icon" />
+                  </div>
+                  <h5 class="item-title fw-7">Details info</h5>
+                  <p class="text">This stage is the result of an image or photo that has been uploaded which states the user's skin disease.</p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img src="static/images/service-icon-5.png" alt="service icon" />
+                  </div>
+                  <h5 class="item-title fw-7">Emergency care</h5>
+                  <p class="text">In this final stage the user will be given a solution or way to cure the disease they are experiencing.</p>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-center services-main-btn">
+                <a href="#Consult" class="btn btn-primary">Check Here!</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- akhir section 2 -->
+
+        <!-- awal section 3 -->
+        <section class="sc-feedback" id="Consult">
+          <div class="container">
+            <div class="feedback-content">
+              <div class="feedback-element">
+                <img src="static/images/element-img-3.png" />
+              </div>
+              <div class="feedback-element-2">
+                <img src="static/images/element-img-5.png" />
+              </div>
+              <div class="title-box text-center">
+                <div class="content-wrapper">
+                  <h3 class="title-box-name text-white">Check Your Skin Here!</h3>
+                  <div class="title-separator mx-auto"></div>
+                </div>
+              </div>
+              <!-- Halaman untuk Mendiagnosa penyakit kulit-->
+              <div class="container pohon">
+                <div class="contentwrapper">
+                  <center>
+                    <form id="upload-file" method="post" enctype="multipart/form-data">
+                      <label for="imageUpload" class="upload-label"> Pilih dari Galeri </label>
+                      <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg" />
+                    </form>
+
+                    <div class="image-section" style="display: none">
+                      <div class="img-preview">
+                        <div id="imagePreview"></div>
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-primary btn-lg" id="btn-predict">Prediksi!</button>
+                      </div>
+                    </div>
+
+                    <div class="loader" style="display: none"></div>
+
+                    <div id="result"></div>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- akhir section 3 -->
+
+        <!-- awal section 4 -->
+        <section class="sc-grid sc-grid-two" id="Contact">
+          <div class="container">
+            <div class="grid-content d-grid align-items-center">
+              <div class="grid-img">
+                <img src="static/images/banner7.png" alt="" />
+              </div>
+              <div class="grid-text">
+                <div class="content-wrapper text-start">
+                  <div class="title-box">
+                    <h3 class="title-box-name">Please Feel Free To Contact Us</h3>
+                    <div class="title-separator mx-auto"></div>
+                  </div>
+                  <p class="text title-box-text">If you have any questions, need assistance, or just want to learn more about our services, please don't hesitate to get in touch with us. You can reach us through multiple channels:</p>
+                  <div class="contact-info mt-4">
+                    <a href="+62 858-6054-6588" class="contact-item">
+                      <img src="static/images/telfon.png" alt="Phone" />
+                      <span class="text title-box-text text-white">+62 858-6054-6588</span>
+                    </a>
+                    <a href="mailto:info@example.com" class="contact-item">
+                      <img src="static/images/email.png" alt="Email" />
+                      <span class="text title-box-text text-white">diagnohealth@gmail.com</span>
+                    </a>
+                    <a href="https://www.instagram.com" class="contact-item" target="_blank" rel="noopener noreferrer">
+                      <img src="static/images/instagram.png" alt="Instagram" />
+                      <span class="text title-box-text text-white">@diagnohealth</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- akhir section 4 -->
+      </main>
+      <!-- awal footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-list d-grid text-white">
+              <div class="footer-item-left">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                  <span class="brand-shape d-inline-block text-white">Dh</span>
+                  <span class="brand-text fw-7">DiagnoHealth</span>
+                </a>
+              </div>
+              <div class="footer-item-center">
+                <p class="text-white copyright-text">&copy; DiagnoHealth 2024. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-element-1">
+          <img src="static/images/element-img-4.png" alt="" />
+        </div>
+        <div class="footer-element-2">
+          <img src="static/images/element-img-5.png" alt="" />
+        </div>
+      </footer>
+      <!-- akhir footer -->
+    </div>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- owl carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- js -->
+    <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>
+  </body>
+</html>
